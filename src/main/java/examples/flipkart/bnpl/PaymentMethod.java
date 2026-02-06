@@ -1,4 +1,4 @@
-package flipkart.bnpl;
+package examples.flipkart.bnpl;
 
 enum PaymentMethod {
   PREPAID,

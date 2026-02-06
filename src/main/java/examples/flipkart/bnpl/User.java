@@ -1,4 +1,4 @@
-package flipkart.bnpl;
+package examples.flipkart.bnpl;
 
 import java.util.ArrayList;
 import java.util.List;

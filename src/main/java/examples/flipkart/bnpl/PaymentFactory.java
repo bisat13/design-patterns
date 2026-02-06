@@ -1,4 +1,4 @@
-package flipkart.bnpl;
+package examples.flipkart.bnpl;
 
 public class PaymentFactory {
   static PaymentStrategy get(PaymentMethod method) {

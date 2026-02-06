@@ -1,4 +1,4 @@
-package flipkart.bnpl;
+package examples.flipkart.bnpl;
 
 import java.time.LocalDate;
 import java.util.List;
