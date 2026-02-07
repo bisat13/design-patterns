@@ -1,4 +1,4 @@
-package patterns;
+package javafeatures;
 
 @FunctionalInterface
 interface MyFunctionalInterface {

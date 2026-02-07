@@ -1,8 +1,8 @@
-package patterns;
+package javafeatures;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class Main {
+public class MainFunctionalInterface {
 
   public static void main(String[] args) {
     MyFunctionalInterface func = (msg) -> System.out.println(msg);

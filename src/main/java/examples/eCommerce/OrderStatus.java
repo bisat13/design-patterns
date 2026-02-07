@@ -1,0 +1,13 @@
+package examples.eCommerce;
+
+enum OrderStatus {
+    CREATED,
+    PAYMENT_PENDING,
+    PAYMENT_SUCCESS,
+    INVENTORY_RESERVED,
+    DELIVERY_PARTNER_ASSIGNED,
+    PICKED_UP,
+    DELIVERED,
+    CANCELLED,
+    FAILED
+}
