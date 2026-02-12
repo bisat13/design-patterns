@@ -4,6 +4,7 @@ public class Singleton {
 
   private Singleton() {}
 
+  // Static inner class - loaded only when getInstance() is called
   private static class SingletonHelper {
     private static final Singleton INSTANCE = new Singleton();
   }
@@ -13,6 +14,11 @@ public class Singleton {
   }
 }
 
+class Main{
+  public static void main(String[] args) {
+    Singleton singleton = Singleton.getInstance();
+  }
+}
 /*
 Uses static inner class.
 Bill Pugh Singleton (Best Practice)
